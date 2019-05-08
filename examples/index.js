@@ -21,22 +21,7 @@ app.use(
     // Pass socket.io instance port down to config.
     // Use only if you're passing your own instance.
     // port: socketIoPort,
-    healthChecks: [
-      //{
-      //  protocol: 'http',
-      //  host: 'localhost',
-      //  port: 3000,
-      //  path: '/admin/health/ex1',
-      //  headers: {},
-      //},
-      //{
-      //  protocol: 'http',
-      //  host: 'localhost',
-      //  port: 3000,
-      //  path: '/return-status/200',
-      //  headers: {},
-      //},
-    ],
+    healthChecks: [],
   }),
 );
 app.use(require('express-favicon-short-circuit'));
