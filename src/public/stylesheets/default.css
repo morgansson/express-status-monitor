@@ -70,8 +70,7 @@ canvas {
 }
 
 .container.healthChecks {
-  display: block;
-  height: auto;
+  display: none;
 }
 
 .health-check-row {
@@ -127,11 +126,11 @@ canvas {
 }
 
 .footer {
-  text-align: center;
+  display: none;
 }
 
 .span-controls {
-
+  float: right;
 }
 
 .status-code {
